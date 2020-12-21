@@ -1,21 +1,15 @@
 # Homework: Introducción a Javascript
 
-## Instrucciones
----
-1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+	* Variables: Las variables son la forma que tenemos de almacenar cualquier tipo de dato (string, boolenaos, number, etc.). En Js tenemos 3 keywords para declararlas var, let y const.
 
-	* Variables
-	* Strings
-	* Funciones (argumentos, `return`)
-	* Declaraciones `if`
-	* Valores booleanos (`true`, `false`)
+	* Strings: Es un tipo de dato se representa dentro de comillas dobles o simples, estas comilla representan que este dato, es una cadena de caracteres.
+	Por ejemplo: var name = "Juan" o var lastname ='Caceres'.
 
+	* Funciones (argumentos, `return`): Los argumentos son los variables que nosotros declaramos en nuestras funciones.
+	Return es la palabra reservada para devolver por fuera de nuestra funcion el valor obtenido o ejecutado, es la manera para que el dato escape de la funcion.
 
-2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
+	* Declaraciones `if`: la sentencia If es un controlador de flujo para que nosotros le digamos a la funcion ciertas reglas o controles a la hora de ejectutarse.
+	Por ejemplo: Declaramos una funcion y le exigimos lo siguiente, si(if) es mayor de edad ejecuta esto, y sino hace lo contrario.
+	
+	* Valores booleanos (`true`, `false`): Los valores booleanos pertenecen a un tipo de dato(lògico), donde solo representan dos valores, comunmente en matematicas son 0 o 1, pero en la logica de programaciòn son true or false.
 
-3. Desde la carpeta `Curso.Prep.Henry` en la carpeta donde clonaste el repo: ingresa el comando `npm install`, una vez que termine ingresa el comando `npm test JSI.test.js` para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo `homework.js`.
-
->> Deberás ir escribiendo código en `homework.js` y corriendo de nuevo los tests hasta que TODOS hayan pasado.
-
-
-### Aca tendras acceso a las [Soluciones](https://github.com/atralice/Curso.Prep.Henry/blob/solution/02-JS-I/homework/homework.js)
