@@ -49,7 +49,7 @@ console.log(adicion);
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var sust = y - x;
+  var sust = x - y;
   return sust;
 }
 let rest= resta (10,5);
@@ -146,7 +146,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num %2 !=== 0){
+  if(num %2 !== 0){
     return true;
   }
   return false;
@@ -228,7 +228,7 @@ function obtenerSaludo(nombre) {
   var saludo = `Hola ${nombre}`;
   return saludo;
 }
-let regard = obtenerSaludo('Pedro');
+let regard = obtenerSaludo('Martin!');
 console.log(regard);
 
 function obtenerAreaRectangulo(alto, ancho) {
