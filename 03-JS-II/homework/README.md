@@ -1,12 +1,6 @@
-# Homework: Javascript II
+* `for`: La palabra for hace referencia a un loop o bucle, para emitir repetir varios condicionantes o bloques de codigo nosotros declaramos un bucle for; la sintaxis es la siguiente primero declaramos una variable(a la cual llamamos indice por eso es var i= ), luego declaramos una expresion condicional que recorre el bucle hasta que esta expresion sea false y por ultimo el incremeto de la variable inicial (i++). Las 3 declaraciones se separan por un punto y coma.
+* `&&`, `||`, `!`. Estos 3 son operadores logicos, los cuales nos ayudan a declarar condiciones, y siempre nos devuelven un balor booleano.
+&& Es el operador AND o Y, devolvera true si ambas condiciones se cumplen y devolver false si una o ambas condiciones no se cumplen.
+|| Es el operador OR u O, devolvera true si una u ambas condiciones se cumplen y devolvera false si las dos condiciones no se cumplen.
+! Es el operador de negacion NOT, devolvera el valor booleano opuesto a la condicion.
 
-## Instrucciones
----
-1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
-
-* `for`
-* `&&`, `||`, `!`
-
-2. Desde la carpeta `Prep` en la carpeta donde clonaste el repo, ingresa el comando `npm test JSII.test.js` para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo `homework.js`.
-
-### Aca tendras acceso a las [Soluciones](https://github.com/atralice/Curso.Prep.Henry/blob/solution/03-JS-II/homework/homework.js)
